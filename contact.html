@@ -4,7 +4,36 @@
 <head>
     <title>Contact - Larry's Landscaping</title>
     <meta charset="utf-8">
-
+    <style>
+        h3 {
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: -10px;
+        }
+        
+        img {
+            border: 2px solid var(--light-bg);
+            border-radius: 3%;
+        }
+        
+        form {
+            margin-top: 50px;
+            margin-left: 40%;
+            margin-bottom: 50px;
+        }
+        
+        input {
+            color: #193219;
+            width: 40%;
+            border: 2px solid var(--light-bg);
+            border-radius: 4px;
+        }
+        
+        input[type=submit] {
+            width: 20%;
+            margin-left: 10%;
+        }
+    </style>
 </head>
 <link rel="stylesheet" href="style.css">
 
@@ -26,10 +55,21 @@
     <div class="row" style=" background-image: linear-gradient(#336633, #224422);">
 
         <div class="column1 ">
-            <p>Here at Larry's Landscaping, we pride ourselves on our artisanry and our flexibility. No matter what type of yard you want, our team of landscaping experts will be the right fit for you.</p>
-            <p>Founded in 1987 right here in Medford MA, we pride ourselves on nearly 40 years of serving our community and providing yards everyone can be proud of. Whether you want to embrace nature with a lush, overflowing garden or recreate the succulent
-                desert aesthetic, we've got what you need. For more information on our services, visit our <a href="services.html">services page</a></p>
-            <p>To let us know how we can help you, get in touch with us via our <a href="contact.html">contact page!</a></p>
+            <p>The best way to reach out is by calling 1-800-GUD-LAWN! You can reach us anytime between the hours 8am to 7pm and one of our team will be happy to help! We keep our calls local and with a real person, and we pride ourselves on our customer
+                service. We want you to have the best possible experience.
+            </p>
+            <p>Want to email us your vision for you lawn? Shoot an email to ideas@larryland.com</p>
+            <h3>Join our mailing list!</h3>
+            <p>Put your name and email below to get monthly updates! We love building our little community here at Larry's Landscaping and would love for you to join us.</p>
+            <form action="">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
     </div>

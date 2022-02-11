@@ -1,11 +1,16 @@
 :root {
-    --light-bg: #d2f4d2;
+    --light-bg: hsl(120, 61%, 89%);
 }
 
 * {
     box-sizing: border-box;
     font-family: "Trebuchet MS";
     color: var(--light-bg);
+}
+
+p {
+    font-size: 22px;
+    color: hsl(120, 61%, 75%);
 }
 
 h1 {
