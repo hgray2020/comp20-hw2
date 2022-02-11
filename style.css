@@ -4,21 +4,23 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Garamond';
+    font-family: "Trebuchet MS";
     color: var(--light-bg);
 }
 
 h1 {
     font-size: 70px;
     color: #f2f2f2;
+    font-family: 'Garamond';
 }
 
 h2 {
     font-size: 45px;
+    font-family: 'Garamond';
 }
 
 a {
-    color: #134e13;
+    color: var(--light-bg);
     padding: px;
 }
 
@@ -27,7 +29,7 @@ a:hover {
 }
 
 body {
-    background-color: #336633;
+    background-color: #224422;
     font-family: verdana;
     margin: 0px;
 }
@@ -44,6 +46,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    font-family: 'Garamond';
 }
 
 .topnav a {
@@ -54,6 +57,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Garamond';
 }
 
 .topnav a:hover {
@@ -64,9 +68,9 @@ body {
 .column1 {
     background: none;
     float: left;
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
+    width: 98%;
+    padding: 1%;
+    margin: 0.5%;
 }
 
 .column2 {
