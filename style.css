@@ -33,9 +33,12 @@ body {
 }
 
 .header {
-    background-image: url('header-img.jpg');
+    background-image: url('header.png');
+    background-size: 100vw;
     padding: 20px;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .topnav {
@@ -50,7 +53,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .topnav a:hover {
